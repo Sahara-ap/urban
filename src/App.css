@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  
+  
+  @media (min-width: 1600px) and (max-width: 1920px) {
+    max-width: 1240px;
+  }
+  @media (min-width: 770px) and (max-width: 1599px) {
+    padding: 0 44px;
+  }
+  @media (min-width: 390px) and (max-width: 769px) {
+    padding: 0 35px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* ====== HEADER ====== */
+
+/* --- Верхняя полоса --- */
+.header__top {
+  background-color: #231815;
+  padding: 12px 0;
+}
+
+.header__top-links {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-end;
+  gap: 70px;
+}
+
+.header__top-link {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+/* --- Основной блок хедера --- */
+.header__main {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.header__main-inner {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+/* --- Логотип --- */
+.header__logo-img {
+  height: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* --- Навигация --- */
+.header__nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header__nav-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* --- Действия: поиск и корзина --- */
+.header__actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header__search {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.header__search-input {
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.header__search-btn {
+  padding: 8px 12px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* --- Корзина --- */
+.header__cart-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__cart-text {
+  display: inline-block;
 }

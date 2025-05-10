@@ -1,0 +1,9 @@
+:root {
+  --vp-desktopTop: 1600px;
+  --vp-desktopLow: 1440px;
+  --vp-laptopTop: 1439px;
+  --vp-laptopLow: 1024px;
+  --vp-tabletTop: 1023px;
+  --vp-tabletLow: 768px;
+  --vp-mobileTop: 767px;
+}
