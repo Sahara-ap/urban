@@ -136,6 +136,148 @@ function App() {
       <main>
         <div className="container">
           <h1 className="page-title">Результаты поиска</h1>
+          <ul className="main__product-list">
+            <li className="main__product-card">
+              <div className="product-card__image-block">
+                <div className="product-card__image-wrapper">
+                  <img
+                    src="/products/product2.jpg"
+                    alt="изображение продукта"
+                  />
+                </div>
+                <div className="product-card__promo">Акция</div>
+                <div className="product-card__more-btn-wrapper">
+                  <button className="product-card__more-btn">Подробнее</button>
+                </div>
+              </div>
+              <div className="product-card__info">
+                <span className="product-card__name">
+                  Встраиваемый светильник Markt
+                </span>
+                <p className="product-card__price-wrapper">
+                  <span className="product-card__actual-price">3490 ₽</span>
+                  <span className="product-card__base-price">5060 ₽</span>
+                </p>
+              </div>
+            </li>
+            <li className="main__product-card">
+              <div className="product-card__image-block">
+                <div className="product-card__image-wrapper">
+                  <img
+                    src="/products/product1.jpg"
+                    alt="изображение продукта"
+                  />
+                </div>
+                <div className="product-card__promo">Акция</div>
+                <div className="product-card__more-btn-wrapper">
+                  <button className="product-card__more-btn">Подробнее</button>
+                </div>
+              </div>
+              <div className="product-card__info">
+                <span className="product-card__name">
+                  Встраиваемый светильник Markt
+                </span>
+                <p className="product-card__price-wrapper">
+                  <span className="product-card__actual-price">3490 ₽</span>
+                  <span className="product-card__base-price">5060 ₽</span>
+                </p>
+              </div>
+            </li>
+            <li className="main__product-card">
+              <div className="product-card__image-block">
+                <div className="product-card__image-wrapper">
+                  <img
+                    src="/products/product3.jpg"
+                    alt="изображение продукта"
+                  />
+                </div>
+                <div className="product-card__promo">Акция</div>
+                <div className="product-card__more-btn-wrapper">
+                  <button className="product-card__more-btn">Подробнее</button>
+                </div>
+              </div>
+              <div className="product-card__info">
+                <span className="product-card__name">
+                  Встраиваемый светильник Markt
+                </span>
+                <p className="product-card__price-wrapper">
+                  <span className="product-card__actual-price">3490 ₽</span>
+                  <span className="product-card__base-price">5060 ₽</span>
+                </p>
+              </div>
+            </li>
+            <li className="main__product-card">
+              <div className="product-card__image-block">
+                <div className="product-card__image-wrapper">
+                  <img
+                    src="/products/product2.jpg"
+                    alt="изображение продукта"
+                  />
+                </div>
+                <div className="product-card__promo">Акция</div>
+                <div className="product-card__more-btn-wrapper">
+                  <button className="product-card__more-btn">Подробнее</button>
+                </div>
+              </div>
+              <div className="product-card__info">
+                <span className="product-card__name">
+                  Встраиваемый светильник Markt
+                </span>
+                <p className="product-card__price-wrapper">
+                  <span className="product-card__actual-price">3490 ₽</span>
+                  <span className="product-card__base-price">5060 ₽</span>
+                </p>
+              </div>
+            </li>
+            <li className="main__product-card">
+              <div className="product-card__image-block">
+                <div className="product-card__image-wrapper">
+                  <img
+                    src="/products/product1.jpg"
+                    alt="изображение продукта"
+                  />
+                </div>
+                <div className="product-card__promo">Акция</div>
+                <div className="product-card__more-btn-wrapper">
+                  <button className="product-card__more-btn">Подробнее</button>
+                </div>
+              </div>
+              <div className="product-card__info">
+                <span className="product-card__name">
+                  Встраиваемый светильник Markt
+                </span>
+                <p className="product-card__price-wrapper">
+                  <span className="product-card__actual-price">3490 ₽</span>
+                  <span className="product-card__base-price">5060 ₽</span>
+                </p>
+              </div>
+            </li>
+            <li className="main__product-card">
+              <div className="product-card__image-block">
+                <div className="product-card__image-wrapper">
+                  <img
+                    src="/products/product3.jpg"
+                    alt="изображение продукта"
+                  />
+                </div>
+                <div className="product-card__promo">Акция</div>
+                <div className="product-card__more-btn-wrapper">
+                  <button className="product-card__more-btn">Подробнее</button>
+                </div>
+              </div>
+              <div className="product-card__info">
+                <span className="product-card__name">
+                  Встраиваемый светильник Markt
+                </span>
+                <p className="product-card__price-wrapper">
+                  <span className="product-card__actual-price">3490 ₽</span>
+                  <span className="product-card__base-price">5060 ₽</span>
+                </p>
+              </div>
+            </li>
+
+           
+          </ul>
         </div>
       </main>
     </div>
