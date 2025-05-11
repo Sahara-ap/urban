@@ -306,6 +306,7 @@
 }
 
 .product-card__more-btn-wrapper {
+  transform: translateY(100%);
   position: absolute;
   left: 0;
   right: 0;
@@ -315,9 +316,22 @@
 
   border-radius: 0 0 20px 20px;
   cursor: pointer;
+  transition: transform 0.5s;
+
+  @media (max-width: 1200px) {
+    transform: none;
+  }
 
   @media (max-width: 769px) {
     display: none;
+  }
+}
+.main__product-card:hover .product-card__more-btn-wrapper {
+  transform: translateY(0);
+  transition: transform 0.5s;
+  
+  @media (max-width: 1200px) {
+    transform: none;
   }
 }
 

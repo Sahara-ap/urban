@@ -138,7 +138,7 @@ function App() {
           <h1 className="page-title">Результаты поиска</h1>
           <ul className="main__product-list">
             <li className="main__product-card">
-              <div className="product-card__image-block">
+              <a href="#" className="product-card__image-block">
                 <div className="product-card__image-wrapper">
                   <img
                     src="/products/product2.jpg"
@@ -149,7 +149,7 @@ function App() {
                 <div className="product-card__more-btn-wrapper">
                   <button className="product-card__more-btn">Подробнее</button>
                 </div>
-              </div>
+              </a>
               <div className="product-card__info">
                 <span className="product-card__name">
                   Встраиваемый светильник Markt
@@ -161,7 +161,7 @@ function App() {
               </div>
             </li>
             <li className="main__product-card">
-              <div className="product-card__image-block">
+              <a href="#" className="product-card__image-block">
                 <div className="product-card__image-wrapper">
                   <img
                     src="/products/product1.jpg"
@@ -172,7 +172,7 @@ function App() {
                 <div className="product-card__more-btn-wrapper">
                   <button className="product-card__more-btn">Подробнее</button>
                 </div>
-              </div>
+              </a>
               <div className="product-card__info">
                 <span className="product-card__name">
                   Встраиваемый светильник Markt
@@ -184,7 +184,7 @@ function App() {
               </div>
             </li>
             <li className="main__product-card">
-              <div className="product-card__image-block">
+              <a href="#" className="product-card__image-block">
                 <div className="product-card__image-wrapper">
                   <img
                     src="/products/product3.jpg"
@@ -195,7 +195,7 @@ function App() {
                 <div className="product-card__more-btn-wrapper">
                   <button className="product-card__more-btn">Подробнее</button>
                 </div>
-              </div>
+              </a>
               <div className="product-card__info">
                 <span className="product-card__name">
                   Встраиваемый светильник Markt
@@ -207,7 +207,7 @@ function App() {
               </div>
             </li>
             <li className="main__product-card">
-              <div className="product-card__image-block">
+              <a href="#" className="product-card__image-block">
                 <div className="product-card__image-wrapper">
                   <img
                     src="/products/product2.jpg"
@@ -218,7 +218,7 @@ function App() {
                 <div className="product-card__more-btn-wrapper">
                   <button className="product-card__more-btn">Подробнее</button>
                 </div>
-              </div>
+              </a>
               <div className="product-card__info">
                 <span className="product-card__name">
                   Встраиваемый светильник Markt
@@ -230,7 +230,7 @@ function App() {
               </div>
             </li>
             <li className="main__product-card">
-              <div className="product-card__image-block">
+              <a href="#" className="product-card__image-block">
                 <div className="product-card__image-wrapper">
                   <img
                     src="/products/product1.jpg"
@@ -241,7 +241,7 @@ function App() {
                 <div className="product-card__more-btn-wrapper">
                   <button className="product-card__more-btn">Подробнее</button>
                 </div>
-              </div>
+              </a>
               <div className="product-card__info">
                 <span className="product-card__name">
                   Встраиваемый светильник Markt
@@ -253,7 +253,7 @@ function App() {
               </div>
             </li>
             <li className="main__product-card">
-              <div className="product-card__image-block">
+              <a href="#" className="product-card__image-block">
                 <div className="product-card__image-wrapper">
                   <img
                     src="/products/product3.jpg"
@@ -264,7 +264,7 @@ function App() {
                 <div className="product-card__more-btn-wrapper">
                   <button className="product-card__more-btn">Подробнее</button>
                 </div>
-              </div>
+              </a>
               <div className="product-card__info">
                 <span className="product-card__name">
                   Встраиваемый светильник Markt
