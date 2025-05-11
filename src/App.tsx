@@ -23,11 +23,11 @@ function App() {
 
         <div className="header__main">
           <div className="header__container container header__main-inner">
-            <div className="header__logo">
+            <div className="header__logo logo-wrapper">
               <img
-                src="/logo.svg"
+                src="/logo/logo-black.png"
                 alt="Urban Dwelling"
-                className="header__logo-img"
+                className="header__logo-img logo-img"
               />
             </div>
 
@@ -133,7 +133,7 @@ function App() {
           </div>
         </div>
       </header>
-      <main>
+      <main className="main">
         <div className="container">
           <h1 className="page-title">Результаты поиска</h1>
           <ul className="main__product-list">
@@ -275,11 +275,78 @@ function App() {
                 </p>
               </div>
             </li>
-
-           
           </ul>
         </div>
       </main>
+      <footer className="footer">
+        <div className="container footer__grid">
+          <div className="footer__logo-wrapper logo-wrapper">
+            <img
+              src="/logo/logo-white.png"
+              alt="Urban Dwelling"
+              className="logo-img"
+            />
+          </div>
+          <div className="footer__address">
+            <span className="footer__title">Адрес</span>
+            <span className="footer__text">Текст, Текст, Текст</span>
+          </div>
+          <div className="footer__contacts">
+            <span className="footer__title">Контакты</span>
+            <span className="footer__text email">
+              Email: urban.dwelling@yandex.com
+            </span>
+            <span className="footer__text tel">Телефон: 8 (999) 999-99-99</span>
+          </div>
+          <div className="footer__services">
+            <span className="footer__title">Услуги</span>
+            <ul className="footer__services-list">
+              <li className="footer__text">
+                <a href="#">Каталог</a>
+              </li>
+              <li className="footer__text">
+                <a href="#">О компании</a>
+              </li>
+              <li className="footer__text">
+                <a href="#">Контакты</a>
+              </li>
+              <li className="footer__text">
+                <a href="#">Доставка и оплата</a>
+              </li>
+              <li className="footer__text">
+                <a href="#">Гарантия и возврат</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer__docs">
+            <a href="#" download>
+              Публичная оферта
+            </a>
+            <a href="#" download>
+              Политика персональных данных
+            </a>
+          </div>
+          <div className="footer__captcha">
+            <span className="captcha">
+              Этот сайт защищен от спама службой reCAPTCHA Google.{" "}
+              <a href="#">
+                Политика конфиденциальности/Условия предоставления услуг
+              </a>
+            </span>
+          </div>
+          <div className="footer__payments">
+            <li>
+              <img src="/mir-card.png" alt="изображение карты Мир" />
+            </li>
+            <li>
+              <img src="/visa-card.png" alt="изображение карты Мир" />
+            </li>
+            <li>
+              <img src="/master-card.png" alt="изображение карты Мир" />
+            </li>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
