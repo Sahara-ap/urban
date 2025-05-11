@@ -47,3 +47,7 @@ input::placeholder {
 .no-scroll {
   overflow: hidden;
 }
+
+a:hover {
+  opacity: 0.7;
+}

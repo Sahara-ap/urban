@@ -118,6 +118,10 @@
   }
 }
 
+.header__search:hover {
+  border: 1px solid #231815;
+}
+
 .header__search-input {
   border: none;
   outline: none;
@@ -146,6 +150,10 @@
   }
 }
 
+.header__search-btn:hover {
+  opacity: 0.7;
+}
+
 .header__search-btn svg {
   width: 100%;
   object-fit: contain;
@@ -164,6 +172,10 @@
   border: none;
   border-radius: 100px;
   cursor: pointer;
+}
+
+.header__cart-btn:hover {
+  opacity: 0.7;
 }
 
 .header__cart-text {
@@ -329,7 +341,7 @@
 .main__product-card:hover .product-card__more-btn-wrapper {
   transform: translateY(0);
   transition: transform 0.5s;
-  
+
   @media (max-width: 1200px) {
     transform: none;
   }
